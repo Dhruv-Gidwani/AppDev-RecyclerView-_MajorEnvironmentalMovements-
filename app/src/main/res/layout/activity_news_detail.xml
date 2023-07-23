@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewsDetailActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/img" />
+
+    <TextView
+        android:id="@+id/tvheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textColor="#80c904"
+        android:textSize="22dp"
+        android:layout_margin="12dp"
+        android:layout_gravity="center"
+        android:text="Bishnoi Movement" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+        <TextView
+            android:id="@+id/tvnewsContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:text="What was it all about: Mr. Bahuguna enlightened the villagers by conveying the importance of trees in the environment which checks the erosion of soil, cause rains and provides pure air. The women of Advani village of Tehri-Garhwal tied the sacred thread around trunks of trees and they hugged the trees, hence it was called the ‘Chipko Movement’ or ‘hug the tree movement’.
+
+The main demand of the people in these protests was that the benefits of the forests (especially the right to fodder) should go to local people. The Chipko movement gathered momentum in 1978 when the women faced police firings and other tortures.
+
+The then state Chief Minister, Hemwati Nandan Bahuguna set up a committee to look into the matter, which eventually ruled in favour of the villagers. This became a turning point in the history of eco-development struggles in the region and around the world.
+   "/>
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>
